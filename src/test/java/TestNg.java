@@ -27,6 +27,12 @@ public class TestNg {
         driver.get("https://www.facebook.com/");
     }
 
+    @Test
+    void openWhatsApp(){
+
+        driver.get("https://web.whatsapp.com/");
+    }
+
     @AfterMethod
     void tearDown(){
         if(driver != null)
